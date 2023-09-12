@@ -1,4 +1,7 @@
-# E-commerce Back End
+# E-commerce Backend
+
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 This repo is for module thirteen's challenge assignment.
 
 ## Description
@@ -13,13 +16,13 @@ The motivation behind this project was to learn how to utilize the skills I've l
 - GitHub Pages WebPage Deployment URL: n/a
 - Heroku Webpage Deployment URL: n/a
 
-## Screenshots
+## Screenshots, GIFs and Videos
 
-#### Note taker localhost example:
-![note taker localhost example screenshot](./assets/images/cli-application-test-kd.PNG)
+#### Video WalkThroughs
+- The following link will take you to a video walkthrough on how to create the schema from the MySQL shell, how to seed the database from the command line, how to start the application's server and the functionality of the e-commerce backend by demonstrating GET, POST, PUT and DELETE requests for categories, products and tags in Insomnia
 
-#### DELETE request example:
-![DELETE request example screenshot](./assets/images/generated-readme-example-kd.PNG)
+    - [E-commerce Backend Video Walkthrough Link](https://drive.google.com/drive/folders/1mNIgPSCa7uQs2rGloBkvCrX5vqao1-Hs?usp=sharing)
+
 
 ## Table of Contents
 
@@ -38,42 +41,24 @@ The motivation behind this project was to learn how to utilize the skills I've l
 The following steps were taken to complete the project:
 - Review the purpose of the project, the user story and acceptance criteria
 - Review the basics to starting a command-line application
-- Review JavaScript
-- Review Node.js
-- Review Express.js
+- Review JavaScript, Node.js, Express.js, MySQL, Sequelize
 - Create Professional README file
 - Write code
 - Add website image/gif to README file
 - Submit URL to GitHub Repo and link to Heroku deployment
 
-JavaScript Updates
-```
-// comments were made as needed in the JavaScript file
-```
-
-Node.js Updates
-```
-// comments were made as needed in JavaScript file
-```
-
-Express.js Updates
-```
-// comments were made as needed in JavaScript file
-```
-
 ## Usage
 
 - Clone repo onto local device
 - Open repo in local CLI
-- Make sure node packages are installed by running 'npm i'
-- Run 'node index.js' or 'npm start' in CLI
-- Open up localhost on browser (http://localhost:3001)
-- Press 'Get Started' to initiate backend of the ecommerce web application
-- Type Note title and text in input areas
-- Click save icon
-- Review saved notes on left-hand side of web application
-- Click delete button to delete saved notes
-- Review user inputs in CLI for saved notes or delete requests
+- Make sure to update the `.env.EXAMPLE` file to match the database, username and password to be used in this repo and to update the filename to `.env` so that it can run based on the `connections.js` file
+- Make sure node packages are installed by running `npm i`
+- Login to MySQL by typing `mysql -u root -p` and sign in with your password
+- Type `exit` to exit mysql
+- Run `npm run seed` in CLI
+- Run `npm start` in CLI
+- Open up localhost on the Insomnia application (http://localhost:3001)
+- Use the Insomnia app to do GET, POST, PUT and DELETE requests for categories, products and tags for the e-commerce application
 
 ## Credits
 
@@ -84,6 +69,8 @@ I used the following resources to help guide me to complete the portfolio projec
 - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [Node.js Introduction](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 - [Express.js](https://expressjs.com/)
+- [Sequelize](https://sequelize.org/)
+- [Introduction to Insomnia](https://docs.insomnia.rest/insomnia/get-started)
 - [MySQL Tutorial](https://www.w3schools.com/MySQL/default.asp)
 - [How to take a full page screenshot with a hidden Chrome shortcut](https://zapier.com/blog/full-page-screenshots-in-chrome/)
 
@@ -93,7 +80,7 @@ Starter code was provided by:
 
 ## License
 
-N/A
+- [MIT](https://opensource.org/license/mit/)
 
 ## Badges
 
