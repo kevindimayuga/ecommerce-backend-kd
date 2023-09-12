@@ -1,5 +1,6 @@
 const { ProductTag } = require('../models');
 
+// this will populate the data for the product tags in the sql database
 const productTagData = [
   {
     product_id: 1,
