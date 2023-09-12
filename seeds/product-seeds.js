@@ -1,5 +1,6 @@
 const { Product } = require('../models');
 
+// this will populate the data for the products in the sql database
 const productData = [
   {
     product_name: 'Plain T-Shirt',
