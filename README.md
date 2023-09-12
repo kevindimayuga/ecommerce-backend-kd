@@ -3,17 +3,15 @@ This repo is for module thirteen's challenge assignment.
 
 ## Description
 
-The challenge is an On-the-job ticket/feature request Challenge (begin with starter code that you need to modify). The goal is to create an application called Note Taker that can be used to write and save notes. This application will use Express.js back end and will save and retrieve note data from a JSON file.
+The challenge is an On-the-job ticket/feature request Challenge (begin with starter code that you need to modify). The goal is to build the backend for an e-commerce site. The application will use a Express.js API and use Sequelize to interact with a MySQL database.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
-
-The motivation behind this project was to learn how to utilize the skills I've learned in Express.js. The problem it solved was to create a Note Taker app to write and save notes so that we can access them later to study and review.
+The motivation behind this project was to learn how to utilize the skills I've learned in Express.js and Sequelize. The problem it solved was to create a backend for an e-commerce site.
 
 ## Accessing the Repo or Webpage:
 
-- GitHub Repo URL: https://github.com/kevindimayuga/note-taker-kd
+- GitHub Repo URL: https://github.com/kevindimayuga/ecommerce-backend-kd
 - GitHub Pages WebPage Deployment URL: n/a
-- Heroku Webpage Deployment URL: https://lit-fjord-72926-0e760f7d4b9e.herokuapp.com/
+- Heroku Webpage Deployment URL: n/a
 
 ## Webpage Screenshot
 
@@ -70,7 +68,7 @@ Express.js Updates
 - Make sure node packages are installed by running 'npm i'
 - Run 'node index.js' or 'npm start' in CLI
 - Open up localhost on browser (http://localhost:3001)
-- Press 'Get Started' to initiate Note Taker application
+- Press 'Get Started' to initiate backend of the ecommerce web application
 - Type Note title and text in input areas
 - Click save icon
 - Review saved notes on left-hand side of web application
