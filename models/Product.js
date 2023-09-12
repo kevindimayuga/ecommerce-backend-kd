@@ -10,6 +10,10 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
+    // for each product created, these are the attributes for each of the fields created in our product table
+    // a product will have an 'id', 'product_name', 'price' and more
+    // keep in mind when creating new products in Insomnia, we will need to provide these JSON fields to create that data
+    // the id will be the primary key in this table of data
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
