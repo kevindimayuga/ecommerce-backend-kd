@@ -4,6 +4,9 @@ const { Product, Category, Tag, ProductTag } = require("../../models");
 // The `/api/products` endpoint
 
 // get all products
+// this route is a GET request that will get all the products in our database with an HTTP request
+// it will include all the product's attributes and also include the category
+// and tags that are associated with that product
 router.get("/", (req, res) => {
   // find all products
   Product.findAll({
@@ -28,6 +31,9 @@ router.get("/", (req, res) => {
 });
 
 // get one product
+// this route is a GET request that will get one product BY ID in our database with an HTTP request
+// it will include all the product's attributes and also include the category
+// and tags that are associated with that product
 router.get("/:id", (req, res) => {
   // find a single product by its `id`
   Product.findOne({
@@ -62,6 +68,8 @@ router.get("/:id", (req, res) => {
 });
 
 // create new product
+// this route is a POST request that will CREATE a product with a unique id in our database with an HTTP request
+// make sure to include all of the following commented attributes in order to successfully create the new product
 router.post("/", (req, res) => {
   /* req.body should look like this...
     {
@@ -94,6 +102,8 @@ router.post("/", (req, res) => {
 });
 
 // update product
+// this route is a PUT request that will UPDATE one product BY ID in our database with an HTTP request
+// it will include a new product_name and ID
 router.put("/:id", (req, res) => {
   // update product data
   Product.update(req.body, {
@@ -135,6 +145,8 @@ router.put("/:id", (req, res) => {
     });
 });
 
+// this route is a DELETE request that will DELETE one product BY ID in our database with an HTTP request
+// the product will no longer be in the database and will be "destroyed"
 router.delete("/:id", (req, res) => {
   // delete one product by its `id` value
   Product.destroy({
