@@ -13,7 +13,7 @@ The motivation behind this project was to learn how to utilize the skills I've l
 - GitHub Pages WebPage Deployment URL: n/a
 - Heroku Webpage Deployment URL: n/a
 
-## Webpage Screenshot
+## Screenshots
 
 #### Note taker localhost example:
 ![note taker localhost example screenshot](./assets/images/cli-application-test-kd.PNG)
