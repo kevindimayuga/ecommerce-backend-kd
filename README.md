@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-M13 - This repo is a a Object-Relational Mapping (ORM) project that will build the back end for an e-commerce site.
+M13 - This repo is an Object-Relational Mapping (ORM) project that will build the back end for an e-commerce site.
 
 ## Description
 
