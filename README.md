@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-This repo is for module thirteen's challenge assignment.
+M13 - This repo is a a Object-Relational Mapping (ORM) project that will build the back end for an e-commerce site.
 
 ## Description
 
